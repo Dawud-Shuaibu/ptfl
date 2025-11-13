@@ -1,3 +1,7 @@
+* {
+    transition: 300ms;
+}
+
 body {
     margin: 0;
 }
@@ -50,7 +54,6 @@ nav {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
-    transition: 300ms;
 }
 
 .skills {
@@ -65,7 +68,6 @@ nav {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
-    transition: 300ms;
 }
 
 .home:hover, 
@@ -73,9 +75,8 @@ nav {
 .projects:hover, 
 .skills:hover, 
 .contact:hover {
-    color: rgb(50, 100, 255);
-    border: 1px solid rgb(50, 100, 255);
-    box-shadow: 7px 7px 0px 0px rgb(50, 100, 255);
+    border: 1px solid gray;
+    box-shadow: 7px 7px 5px 0px gray;
 }
 
 .my-links {
@@ -97,30 +98,30 @@ nav {
     border-radius: 5px;
 }
 
-#skills {
+.main {
     display: block;
 }
 
 .skills-bg {
     margin-top: 125px;
     width: 100%;
-    height: 600px;
+    height: 650px;
     object-fit: cover;
 }
 
 .skills-explore-txt {
     margin: 0;
-    margin-top: -390px;
+    margin-top: -410px;
     text-align: center;
     color: rgb(50, 100, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
     font-style: italic;
     cursor: default;
 }
 
 .programming-txt {
-    margin-top: 290px;
+    margin-top: 330px;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 20%;
@@ -147,14 +148,13 @@ nav {
     padding: 10px;
     box-shadow: 0 0 7px 0px #000;
     border-radius: 15px;
-    transition: 300ms;
     text-align: center;
     cursor: default;
     width: 155px;
     height: 175px;
 }
 
-#skills ul li img {
+.main ul li img {
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -162,7 +162,7 @@ nav {
     margin-bottom: 10px;
 }
 
-#skills ul .javascript img {
+.main ul .javascript img {
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -194,18 +194,19 @@ nav {
 }
 
 .tools-box {
-    background-color: whitesmoke;
+    width: 60%;
+    padding: 40px 0px;
+    margin-bottom: 40px;
     list-style: none;
     display: flex;
+    gap: 70px;
     justify-self: center;
     justify-content: center;
-    gap: 70px;
-    padding: 40px 0px;
-    width: 60%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px 0px #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    border-radius: 30px;
-    box-shadow: 0 0 5px 0px #000;
 }
 
 .git, 
@@ -213,20 +214,19 @@ nav {
     padding: 10px;
     box-shadow: 0 0 7px 0px #000;
     border-radius: 15px;
-    transition: 300ms;
     text-align: center;
     cursor: default;
     width: 155px;
     height: 175px;
 }
 
-#skills ul .git svg, 
-#skills ul .github svg {
+.main ul .git svg, 
+.main ul .github svg {
     justify-self: center;
     margin-bottom: 20px;
 }
 
-#skills ul .github svg {
+.main ul .github svg {
     margin-bottom: 30px;
 }
 
@@ -242,26 +242,27 @@ nav {
 }
 
 .skills-footer {
-    margin-top: 30px;
-    margin-bottom: 20px;
     justify-self: center;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     border: 1px solid #000;
-    width: 71%;
-    background-color: rgb(50, 100, 255);
+    width: 55%;
+    background-color: rgb(32, 31, 31);
     border: 1px solid #000;
-    box-shadow: 5px 5px 0px 0px #000;
-    border-radius: 10px;
-    padding: 10px;
+    box-shadow: 0px 0px 5px 0px #000;
+    border-radius: 5px;
+    padding: 7px;
     color: #fff;
     cursor: default;
 }
 
 footer {
+    width: 100%;
+    padding: 1px 0px 15px 0px;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

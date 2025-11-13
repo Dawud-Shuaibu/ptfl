@@ -56,6 +56,10 @@ nav {
     border-radius: 5px;
 }
 
+.about {
+    font-weight: bold;
+}
+
 .projects, 
 .contact {
     color: #000;
@@ -64,10 +68,6 @@ nav {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
-}
-
-.contact {
-    font-weight: bold;
 }
 
 .home:hover, 
@@ -98,87 +98,44 @@ nav {
     border-radius: 5px;
 }
 
+.main-box {
+    width: auto;
+    height: auto;
+    padding: 240px 0px 0px 0px;
+}
+
 .main {
-    position: relative;
-    top: 190px;
-    width: 50%;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    justify-self: center;
-    justify-items: center;
-    align-items: center;
+    width: 600px;
+    height: auto;
+    padding: 90px;
+    margin: 0 auto 50px auto;
     border-radius: 30px;
+    border: 3px solid #000;
     background-color: whitesmoke;
-    box-shadow: 0 0 5px 0px #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: default;
 }
 
-.main:hover {
-    border: 1px solid gray;
-    box-shadow: 7px 7px 5px 0px gray;
-}
-
-.dawud-pic {
+.main img {
+    width: 175px;
+    height: 175px;
+    border-radius: 87.5px;
+    border: 3px solid #000;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    object-fit: cover;
-    border: 2.5px solid #000;
-    box-shadow: 0 0 5px 0px #000;
+    margin: -180px auto 40px auto;
 }
 
-.dawud-name {
-    margin: 20px 0 0 0;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 40px;
-    cursor: default;
+.main h2 {
+    font-size: 30px;
 }
 
-.career {
-    margin: 5px 0 0 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    font-style: italic;
-    cursor: default;
-}
-
-.contact-links {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin-top: 25px;
-    gap: 20px;
-}
-
-.mail {
-    display: flex;
-    margin-top: 220px;
-    justify-self: center;
-    justify-content: center;
-    width: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    gap: 20px;
-    border-radius: 30px;
-    border: 0;
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    background-color: rgb(50, 100, 255);
-    color: #fff;
-    border: 2px solid #000;
-    text-decoration: none;
-}
-
-.mail:hover {
-    box-shadow: 7px 7px 0px 0px #000;
+.main p {
+    font-size: 18px;
+    line-height: 35px;
 }
 
 footer {
-    position: absolute;
     width: 100%;
     bottom: 0;
     padding: 15px 0px 15px 0px;
